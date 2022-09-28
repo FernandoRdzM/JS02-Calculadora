@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <title>Calculadora</title>
+</head>
+
+<body>
+    <section class="container-sm" style="max-width: 525px;">
+        
+        <!-- Inputs -->
+        <div class="d-grid gap-2 col-6 mx-auto">
+        <div class="container-sm">
+            <div class="p-2 bg-light border">
+            <input class="btn btn-outline-info" placeholder="Numero 1" id='num1' type="text">
+        </div>
+            <div class="p-2 bg-light border">
+            <input class="btn btn-outline-info" placeholder="Numero 2" id='num2' type="text">
+        </div>
+        </div>
+    </div>
+
+        <!-- Resultado -->
+        <div class="d-grid gap-2 col-6 mx-auto">
+        <div class="container-sm">
+            <div class="p-2 bg-light border">
+            <input class='btn btn-outline-dark' placeholder="Resultado" id='result' type="text">
+        </div>
+        </div>
+    </div>
+
+        <!-- Operaciones -->
+        <div class="d-grid gap-2 col-6 mx-auto">
+        <div class="container-sm">
+            <div class="p-2 bg-light border">
+            <button class="btn btn-outline-primary btn-sm" style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .575rem;" id='sum'>Sumar</button>
+            <button class="btn btn-outline-danger btn-sm" style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .575rem;" id='res'>Restar</button>
+            <button class="btn btn-outline-success btn-sm" style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .575rem;" id='mul'>Multiplicar</button>
+            <button class="btn btn-outline-warning btn-sm" style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .575rem;" id='div'>Dividir</button>
+        </div>
+        </div>
+    </div>
+    </section>
+
+    <!-- Style -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
